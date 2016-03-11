@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_android"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=""
+        android:background="@drawable/background_copy"/>-->
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_awesome_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="ClassChat"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:fontFamily="monospace"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hello!"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:background="#AAd3d3d3"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:fontFamily="monospace" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="What's Your Name?"
+        android:background="#AAFFFFFF"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:textAlignment="center"
+        android:textSize="40dp"
+
+        android:fontFamily="monospace" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:hint="What's Are You Studying?"
+        android:background="#AAFFFFFF"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    "
+        android:textAlignment="center"
+        android:textSize="50dp"
+
+        android:fontFamily="monospace" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Go->"
+        android:fontFamily="monospace"
+        android:textSize="25dp"
+        android:background="#AAFFFFFF"
+        android:onClick="chatScreen"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_android"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_awesome_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="About The Team"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:fontFamily="monospace"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text=" "
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="ClassChat is the Product of Michael S., Jared S., Chris H., Elizabeth O. (with support from Robik R.) for WildHacks 2015 @ Northwestern University"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:background="#bbFFFFFF"/>
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/squad"/>
+
+
+
+</LinearLayout>
