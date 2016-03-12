@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfirstapp" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission  android:name="android.permission.WAKE_LOCK"  />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".DoTheThing"
+            android:label="@string/title_activity_do_the_thing" >
+        </activity>
+
+        <activity
+            android:name=".Sound"
+            android:label="@string/title_activity_sound">
+
+        </activity>
+        <activity
+            android:name=".Vibrate"
+            android:label="@string/title_activity_vibrate" >
+        </activity>
+        <activity
+            android:name=".Off"
+            android:label="@string/title_activity_off" >
+        </activity>
+    </application>
+
+</manifest>

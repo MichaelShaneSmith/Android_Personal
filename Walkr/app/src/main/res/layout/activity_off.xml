@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:id="@+id/vibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Vibrate"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        />
+    <ToggleButton
+        android:id="@+id/vibToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:onClick="vibButton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"/>
+
+    <ToggleButton
+        android:id="@+id/soundToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:onClick="soundButton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Button"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:layout_below="@+id/soundToggle"
+        android:layout_gravity="center"
+        android:onClick="testButton"/>
+
+</LinearLayout>

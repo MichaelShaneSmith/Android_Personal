@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Walkr</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter A Message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_walker">WalkerActivity</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="title_activity_do_the_thing">DoTheThing</string>
+    <string name="title_activity_meet_the_team">MeetTheTeam</string>
+    <string name="title_activity_ringtones">Ringtones</string>
+    <string name="title_activity_sound1">Sound1</string>
+    <string name="title_activity_sound2">Sound2</string>
+    <string name="title_activity_sound3">Sound3</string>
+    <string name="title_activity_sound4">Sound4</string>
+    <string name="title_activity_v_sound1">vSound1</string>
+    <string name="title_activity_v_sound2">vSound2</string>
+    <string name="title_activity_v_sound3">vSound3</string>
+    <string name="title_activity_v_sound4">vSound4</string>
+    <string name="title_activity_sound">Walkr - Sound</string>
+    <string name="title_activity_vibrate">Walkr - Vibrate</string>
+    <string name="title_activity_off">Walkr - Off</string>
+
+</resources>

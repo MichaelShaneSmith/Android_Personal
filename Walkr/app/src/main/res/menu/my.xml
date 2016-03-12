@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+
+
+    <!--<item android:id="@+id/team"
+        android:title="Meet The Team"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/instructions"
+        android:title="Instructions"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>-->
+
+</menu>
